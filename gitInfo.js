@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = ('A tool to help with code management')
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = ('A third party webstie that allows repositories to be accessed by multiple people')
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,8 @@
 */
 
 //CODE HERE
-
+let init = ('Creates a new repository. Code: git init')
+// console.log(init)
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +43,7 @@
 */
 
 //CODE HERE
-
+let clone =('Used to make a copy of an exisiting repo. Code: git clone')
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +51,7 @@
 */
 
 //CODE HERE
-
+let status =('Used to check where your code is. Code: git status')
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +59,7 @@
 */
 
 //CODE HERE
-
+let add =('Used to add changes in your code to your repo. Code: git add .')
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +67,7 @@
 */
 
 //CODE HERE
-
+let commit =('Used to create snapshots of changes along with a timeline of projects history. Code: git commit -m "description of change"')
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +76,4 @@
 */
 
 //CODE HERE
+let push =('Used to push changes in code to repo. Code: git push')
