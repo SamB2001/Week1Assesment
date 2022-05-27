@@ -12,9 +12,12 @@ reader.question("Please enter a password of atleast 10 characters ", function(in
 	
 	 const password = tokens[0];
 	
+
  if (password.length < 10) {
-     console.log('Password must be 10 Characters or longer')
- } else {console.log('Password meets requirements')
+     console.log('Password must be at least 10 Characters or contain a number')
+ }
+  else 
+  {console.log('Password meets requirements')
  }
 
 	reader.close()
