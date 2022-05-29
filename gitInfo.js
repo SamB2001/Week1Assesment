@@ -34,8 +34,11 @@ let gitHubDefinition = ('A third party webstie that allows repositories to be ac
 */
 
 //CODE HERE
-let init = ('Creates a new repository. Code: git init')
-// console.log(init)
+let init = {
+    description: 'Creates a new repository',
+    code: 'git init',
+}
+//  console.log(init)
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,7 +46,10 @@ let init = ('Creates a new repository. Code: git init')
 */
 
 //CODE HERE
-let clone =('Used to make a copy of an exisiting repo. Code: git clone')
+let clone ={
+    description:'Used to make a copy of an exisiting repo.',
+     Code: 'git clone',
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -51,7 +57,10 @@ let clone =('Used to make a copy of an exisiting repo. Code: git clone')
 */
 
 //CODE HERE
-let status =('Used to check where your code is. Code: git status')
+let status ={
+    description:'Used to check where your code is.',
+     Code: 'git status',
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -59,7 +68,10 @@ let status =('Used to check where your code is. Code: git status')
 */
 
 //CODE HERE
-let add =('Used to add changes in your code to your repo. Code: git add .')
+let add ={
+    description:'Used to add changes in your code to your repo.',
+     Code: 'git add .',
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -67,7 +79,10 @@ let add =('Used to add changes in your code to your repo. Code: git add .')
 */
 
 //CODE HERE
-let commit =('Used to create snapshots of changes along with a timeline of projects history. Code: git commit -m "description of change"')
+let commit ={
+    description:'Used to create snapshots of changes along with a timeline of projects history.',
+     Code: 'git commit -m "description of change"',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -76,4 +91,7 @@ let commit =('Used to create snapshots of changes along with a timeline of proje
 */
 
 //CODE HERE
-let push =('Used to push changes in code to repo. Code: git push')
+let push ={
+    description:'Used to push changes in code to repo.',
+     Code: 'git push',
+}
